@@ -8,7 +8,7 @@ on:
 env:
   AWS_REGION: us-east-1        # set this to your preferred AWS region, e.g. us-west-1
   ECR_REPOSITORY: my-ecr-repository            # set this to your Amazon ECR repository name
-  EKS_CLUSTER_NAME: kubernetes-demo
+  EKS_CLUSTER_NAME: myeks
 
 jobs:
   deploy:
